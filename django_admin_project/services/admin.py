@@ -2,6 +2,7 @@ from django.contrib import admin
 from .models import Bar
 
 
+@admin.register(Bar)
 class BarAdmin(admin.ModelAdmin):
     readonly_fields = (
         'created_at',
@@ -20,6 +21,3 @@ class BarAdmin(admin.ModelAdmin):
             'fields': readonly_fields
         })
     )
-
-
-admin.site.register(Bar, BarAdmin)
