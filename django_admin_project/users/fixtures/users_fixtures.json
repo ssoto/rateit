@@ -1,0 +1,28 @@
+[
+{
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+        "created_at": "2020-06-16T09:57:30.942Z",
+        "updated_at": "2020-06-16T10:04:00.317Z",
+        "first_name": "Alicia",
+        "last_name": "Moya Fuentes",
+        "email": "alicia@alicia.com",
+        "address": "bla bla",
+        "zip_code": 11520
+    }
+},
+{
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+        "created_at": "2020-06-16T10:46:56.737Z",
+        "updated_at": "2020-06-16T10:46:56.737Z",
+        "first_name": "Nina",
+        "last_name": "Moya Fuentes",
+        "email": "nina@dogs.com",
+        "address": "Es una perrita",
+        "zip_code": 11520
+    }
+}
+]
